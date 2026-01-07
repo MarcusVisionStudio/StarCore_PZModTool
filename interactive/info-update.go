@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/kldzj/pzmod/ini"
-	"github.com/kldzj/pzmod/util"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/ini"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/util"
 	"github.com/spf13/cobra"
 )
 
@@ -15,7 +15,7 @@ func cmdUpdateServerInfo(cmd *cobra.Command, config *ini.ServerConfig) {
 			Name: "name",
 			Prompt: &survey.Input{
 				Message: "Server name:",
-				Default: config.GetOrDefault(util.CfgKeyName, "pzmod"),
+				Default: config.GetOrDefault(util.CfgKeyName, "starcore_modtool"),
 			},
 		},
 		{

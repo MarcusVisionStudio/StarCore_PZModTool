@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/kldzj/pzmod/ini"
-	"github.com/kldzj/pzmod/util"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/ini"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/util"
 )
 
 func Continue(action string) bool {
