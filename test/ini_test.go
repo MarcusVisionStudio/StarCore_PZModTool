@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kldzj/pzmod/ini"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/ini"
 )
 
 const testIniPath = "servertest.ini"
@@ -23,8 +23,8 @@ func TestLoadIni(t *testing.T) {
 		t.Errorf("config.Get(\"PublicName\") failed")
 	}
 
-	if name != "pzmod" {
-		t.Errorf("config.Get(\"PublicName\") returned %s, expected %s", name, "pzmod")
+	if name != "starcore_modtool" {
+		t.Errorf("config.Get(\"PublicName\") returned %s, expected %s", name, "starcore_modtool")
 	}
 
 	maxPlayers, exists := config.Get("MaxPlayers")

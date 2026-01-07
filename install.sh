@@ -45,7 +45,7 @@ use_sudo() {
     echo "$sudo"
 }
 
-pzmod_in_path() {
+starcore_modtool_in_path() {
     local filename="$1"
     local in_path="no"
 
@@ -58,9 +58,9 @@ pzmod_in_path() {
 
 finalize_installation() {
     local sudo_needed="$1"
-    local target="${2:-/usr/local/bin/pzmod}"
+    local target="${2:-/usr/local/bin/starcore_modtool}"
     local filename="$(basename "$target")"
-    local in_path=$(pzmod_in_path "$filename")
+    local in_path=$(starcore_modtool_in_path "$filename")
 
     if [ "$sudo_needed" = "yes" ]; then
         sudo chmod +x "$target"
@@ -75,14 +75,14 @@ finalize_installation() {
         echo
     fi
 
-    echo "pzmod successfully installed to $target"
+    echo "starcore_modtool successfully installed to $target"
 }
 
-download_pzmod() {
-    local latest_url="https://api.github.com/repos/kldzj/pzmod/releases/latest"
+download_starcore_modtool() {
+    local latest_url="https://api.github.com/repos/MarcusVisionStudio/StarCore_PZModTool/releases/latest"
     local platform="$(uname -s | tr '[:upper:]' '[:lower:]')"
     local arch="$(get_arch)"
-    local target="${1:-/usr/local/bin/pzmod}"
+    local target="${1:-/usr/local/bin/starcore_modtool}"
     local sudo_needed=$(use_sudo "$target")
 
     local download_url=$(curl -s "$latest_url" |
@@ -91,7 +91,7 @@ download_pzmod() {
         cut -d '"' -f 4)
 
     if [ -z "$download_url" ]; then
-        echo "Error: No prebuilt pzmod binary available for ${platform}_${arch}."
+        echo "Error: No prebuilt starcore_modtool binary available for ${platform}_${arch}."
         exit 1
     fi
 
@@ -104,4 +104,4 @@ download_pzmod() {
     fi
 }
 
-download_pzmod "$@"
+download_starcore_modtool "$@"

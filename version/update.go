@@ -9,7 +9,7 @@ import (
 	"github.com/creativeprojects/go-selfupdate"
 )
 
-const repoSlug = "kldzj/pzmod"
+const repoSlug = "MarcusVisionStudio/StarCore_PZModTool"
 
 func NewUpdater() (*selfupdate.Updater, error) {
 	return selfupdate.NewUpdater(selfupdate.Config{

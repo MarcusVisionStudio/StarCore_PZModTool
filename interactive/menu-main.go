@@ -3,10 +3,10 @@ package interactive
 import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/terminal"
-	"github.com/kldzj/pzmod/config"
-	"github.com/kldzj/pzmod/ini"
-	"github.com/kldzj/pzmod/steam"
-	"github.com/kldzj/pzmod/util"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/config"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/ini"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/steam"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/util"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-module github.com/kldzj/pzmod
+module github.com/MarcusVisionStudio/StarCore_PZModTool
 
 go 1.19
 

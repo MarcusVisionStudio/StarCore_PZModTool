@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kldzj/pzmod/version"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/version"
 	"golang.org/x/mod/semver"
 )
 

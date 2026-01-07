@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kldzj/pzmod/config"
-	"github.com/kldzj/pzmod/util"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/config"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/util"
 	"github.com/spf13/cobra"
 )
 

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kldzj/pzmod/eol"
+	"github.com/MarcusVisionStudio/StarCore_PZModTool/eol"
 )
 
 type ConfigKey struct {
