@@ -40,7 +40,7 @@ A list of available commands can be found by running `starcore_modtool --help`.
 
 ### Download
 
-You can download the latest version of **starcore_modtool** from the [releases page](https://github.com/ImStarboyCZ/StarCore_PZModTool/releases).
+You can download the latest version of **starcore_modtool** from the [releases page](https://github.com/MarcusVisionStudio/StarCore_PZModTool/releases).
 
 Linux users can also install **starcore_modtool** using the following command:
 
