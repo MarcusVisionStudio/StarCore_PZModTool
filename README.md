@@ -2,8 +2,6 @@
 
 **Author:** ImStarboyCZ | Discord: https://discord.gg/a2RCrC8Pas
 
-**Author:** ImStarboyCZ | Discord: https://discord.gg/a2RCrC8Pas
-
 ![Project Banner showing usage example](/.github/banner.png?raw=true)
 
 **starcore_modtool** is a simple Project Zomboid server mods manager that allows you to easily install and manage mods on your server.
