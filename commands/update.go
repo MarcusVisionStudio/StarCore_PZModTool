@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/kldzj/pzmod/util"
-	"github.com/kldzj/pzmod/version"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/util"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/version"
 	"github.com/spf13/cobra"
 )
 

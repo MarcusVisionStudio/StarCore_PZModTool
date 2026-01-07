@@ -3,8 +3,8 @@ package commands
 import (
 	"strings"
 
-	"github.com/kldzj/pzmod/config"
-	"github.com/kldzj/pzmod/util"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/config"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/util"
 	"github.com/spf13/cobra"
 )
 

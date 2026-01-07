@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/kldzj/pzmod/commands"
-	"github.com/kldzj/pzmod/interactive"
-	"github.com/kldzj/pzmod/util"
-	"github.com/kldzj/pzmod/version"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/commands"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/interactive"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/util"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/version"
 	"github.com/spf13/cobra"
 )
 
