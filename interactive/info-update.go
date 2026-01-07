@@ -15,7 +15,7 @@ func cmdUpdateServerInfo(cmd *cobra.Command, config *ini.ServerConfig) {
 			Name: "name",
 			Prompt: &survey.Input{
 				Message: "Server name:",
-				Default: config.GetOrDefault(util.CfgKeyName, "pzmod"),
+				Default: config.GetOrDefault(util.CfgKeyName, "starcore_modtool"),
 			},
 		},
 		{

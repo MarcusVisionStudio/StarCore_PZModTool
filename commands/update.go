@@ -9,7 +9,7 @@ import (
 func cmdUpdate() *cobra.Command {
 	var cmd = &cobra.Command{
 		Use:   "update",
-		Short: "Update pzmod to the latest version",
+		Short: "Update starcore_modtool to the latest version",
 		Run: func(cmd *cobra.Command, args []string) {
 			if !version.IsSet() {
 				cobra.CheckErr(util.ErrVerNotSet)
@@ -23,13 +23,13 @@ func cmdUpdate() *cobra.Command {
 			cobra.CheckErr(err)
 
 			if version.IsLatest(ver, latest) {
-				cmd.Println("pzmod is already up to date")
+				cmd.Println("starcore_modtool is already up to date")
 				return
 			}
 
 			check, _ := cmd.Flags().GetBool("check")
 			if check {
-				cmd.Println("A new version of pzmod is available:", latest.Version())
+				cmd.Println("A new version of starcore_modtool is available:", latest.Version())
 				return
 			}
 

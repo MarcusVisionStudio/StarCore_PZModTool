@@ -75,5 +75,5 @@ func GetCredentialsPath() (string, error) {
 		return "", err
 	}
 
-	return home + "/.pzmod", nil
+	return home + "/.starcore_modtool", nil
 }

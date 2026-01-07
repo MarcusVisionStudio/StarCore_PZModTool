@@ -1,10 +1,12 @@
-## pzmod
+## starcore_modtool
+
+**Author:** ImStarboyCZ | Discord: https://discord.gg/a2RCrC8Pas
 
 **Author:** ImStarboyCZ | Discord: https://discord.gg/a2RCrC8Pas
 
 ![Project Banner showing usage example](/.github/banner.png?raw=true)
 
-**pzmod** is a simple Project Zomboid server mods manager that allows you to easily install and manage mods on your server.
+**starcore_modtool** is a simple Project Zomboid server mods manager that allows you to easily install and manage mods on your server.
 
 ### Features
 
@@ -22,16 +24,16 @@
 
 ```bash
 # Will launch in interactive mode
-pzmod --file path/to/servertest.ini
+starcore_modtool --file path/to/servertest.ini
 
 # Will set the servers public name
-pzmod --file path/to/servertest.ini set name "My Server"
+starcore_modtool --file path/to/servertest.ini set name "My Server"
 
 # Will list the available keys to set through the CLI
-pzmod --file path/to/servertest.ini get list
+starcore_modtool --file path/to/servertest.ini get list
 ```
 
-A list of available commands can be found by running `pzmod --help`.
+A list of available commands can be found by running `starcore_modtool --help`.
 
 ### Requirements
 
@@ -40,16 +42,16 @@ A list of available commands can be found by running `pzmod --help`.
 
 ### Download
 
-You can download the latest version of **pzmod** from the [releases page](https://github.com/ImStarboyCZ/StarCore_PZModTool/releases).
+You can download the latest version of **starcore_modtool** from the [releases page](https://github.com/ImStarboyCZ/StarCore_PZModTool/releases).
 
-Linux users can also install **pzmod** using the following command:
+Linux users can also install **starcore_modtool** using the following command:
 
 ```bash
-# Will install the latest version of pzmod to /usr/local/bin
+# Will install the latest version of starcore_modtool to /usr/local/bin
 curl -fsSL https://raw.githubusercontent.com/ImStarboyCZ/StarCore_PZModTool/main/install.sh | bash -s
 
 # To override the install location, pass the target as an argument
-curl -fsSL https://raw.githubusercontent.com/ImStarboyCZ/StarCore_PZModTool/main/install.sh | bash -s -- /home/user/bin/pzmod
+curl -fsSL https://raw.githubusercontent.com/ImStarboyCZ/StarCore_PZModTool/main/install.sh | bash -s -- /home/user/bin/starcore_modtool
 ```
 
 or if you are more of a 'do not pipe to shell' kind of person:
@@ -59,9 +61,9 @@ curl -fsSL https://raw.githubusercontent.com/ImStarboyCZ/StarCore_PZModTool/main
 less install.sh # Read the script to make sure it is safe
 chmod +x install.sh
 
-# Will install the latest version of pzmod to /usr/local/bin
+# Will install the latest version of starcore_modtool to /usr/local/bin
 ./install.sh
 
 # To override the install location, pass the target as an argument
-./install.sh /home/user/bin/pzmod
+./install.sh /home/user/bin/starcore_modtool
 ```
