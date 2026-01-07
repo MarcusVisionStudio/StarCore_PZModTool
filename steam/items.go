@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kldzj/pzmod/util"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/util"
 	"github.com/savioxavier/termlink"
 )
 

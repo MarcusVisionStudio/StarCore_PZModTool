@@ -79,7 +79,7 @@ finalize_installation() {
 }
 
 download_pzmod() {
-    local latest_url="https://api.github.com/repos/kldzj/pzmod/releases/latest"
+    local latest_url="https://api.github.com/repos/ImStarboyCZ/StarCore_PZModTool/releases/latest"
     local platform="$(uname -s | tr '[:upper:]' '[:lower:]')"
     local arch="$(get_arch)"
     local target="${1:-/usr/local/bin/pzmod}"

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kldzj/pzmod/ini"
+	"github.com/ImStarboyCZ/StarCore_PZModTool/ini"
 )
 
 const testIniPath = "servertest.ini"
